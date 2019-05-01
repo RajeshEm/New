@@ -1,0 +1,32 @@
+
+
+CREATE COMPUTE MODULE HTTp_Test_MF_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+--	DECLARE String1 CHARACTER;
+--	SET String1 = 'module';
+--	DECLARE String2 CHARACTER;
+--	SET String2 = 'Tester';
+--	
+--	IF String1 = 'module' THEN
+--		
+--	DECLARE ConL CHARACTER;
+--	DECLARE EndW CHARACTER;
+--	DECLARE Replc CHARACTER;
+--	DECLARE Low CHARACTER;
+--	
+--	SET ConL = CONTAINS('mod', String1);
+--	SET EndW = ENDSWITH('ter' , String2);
+--	SET Replc = POSITION('d'IN'dell');
+--	SET Low = UPPER(String1);
+--
+--	SET OutputRoot.XMLNSC.StringFunctions.Contains = ConL;
+--	SET OutputRoot.XMLNSC.StringFunctions.Endswith = EndW;
+--	SET OutputRoot.XMLNSC.StringFunctions.Position = Replc;
+--	SET OutputRoot.XMLNSC.StringFunctions.Upper = Low;
+		
+--	END IF;
+		RETURN TRUE;
+	END;
+
+END MODULE;
